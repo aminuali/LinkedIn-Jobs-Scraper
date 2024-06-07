@@ -8,9 +8,9 @@ Install the required packages by running:
 # Script Description
 This script scrapes job postings from LinkedIn for the search query "machine learning" in New Zealand.
 # Script Features
-get_page(page): Function to extract web pages using requests and BeautifulSoup.
-transform_page(sp): Function to transform extracted web pages into structured data.
-Loop through Pages: The script loops through multiple pages of job listings on LinkedIn.
+**get_page(page):** Function to extract web pages using requests and BeautifulSoup.
+**transform_page(sp)**: Function to transform extracted web pages into structured data.
+**Loop through Pages**: The script loops through multiple pages of job listings on LinkedIn.
 Data Storage: Scraped job listings are stored in a Pandas DataFrame and saved to a CSV file.
 
 # Note
